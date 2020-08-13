@@ -1,0 +1,44 @@
+.searchBoxMainDiv{
+    background-color: burlywood;
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+}
+
+.inputSearchBox {
+    margin: auto;
+    position: relative;
+    padding-left: 20px;  
+    font-size: 17px;  
+    border: none;
+    outline: none;
+    /* border-radius: 10px 0 0 10px; */
+    width: 80%;
+    height: 32px;
+}
+
+
+.buttonSearchBox{
+    width: 20%;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    /* border-radius: 0 10px 10px 0; */
+    color: white;
+
+    background-color: rgb(70, 66, 66);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.iconSearchBox {
+    color: white;
+    font-size: 15px;
+    margin: auto 10px;
+}
+
+.buttonSearchBox:hover {
+    cursor: pointer;
+    background-color: black;
+}

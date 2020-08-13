@@ -1,15 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './Containers/headerComp'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="App1">
+      <div className='App2'>
+        <Header />
         
-    
-      </header>
+        </div>
+   
     </div>
   );
 }
