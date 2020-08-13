@@ -1,0 +1,41 @@
+.header2ParentDiv{
+    width:100%;
+    margin: auto;
+    background-color: rgb(206, 13, 13);
+}
+
+.header2MainDiv {
+    display: flex;
+    margin: auto;
+    height: 30px;
+    width: 80%;
+    font-size: 12px;
+    color: white;
+    /* background-color: yellow; */
+    /* position: relative; */
+}
+
+.header2LeftDiv {
+    width: 50%;
+    margin: auto;
+    /* background-color: cornflowerblue; */
+    float: left;
+}
+
+.header2RightDiv {
+    margin: auto;
+    width: 50%;
+    /* background-color: rgb(80, 199, 80); */
+}
+
+.header2RightDiv a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin: auto 10px
+}
+
+.header2MobileIcon {
+    margin: auto 5px;
+
+}

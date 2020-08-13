@@ -1,7 +1,12 @@
-.header{
+.headerParentDiv {
+    width: 100%;
+    margin: auto;
     background-color: rgb(255, 0, 0);
+}
+
+.header{
     font-size: 23px;
-    width: 95%;
+    width: 80%;
     height: 60px;
     display: flex;
 
@@ -38,11 +43,10 @@
     
 }
 
-
 #headerBtn{
     outline: none;
     height: 100%;
-    font-size: 18px;
+    font-size: 16px;
     background-color: inherit;
     border: none;
     float: right;
@@ -52,11 +56,11 @@
 }
 
 .userIconHeader {
-    margin: auto 20px;
+    margin: auto 10px;
     color: white;
 }
 
 #headerBtn:hover{
     cursor: pointer;
-    background-color: rgb(187, 14, 14);
+    background-color: rgb(206, 13, 13);
 }

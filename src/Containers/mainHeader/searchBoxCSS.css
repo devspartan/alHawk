@@ -4,6 +4,7 @@
     display: flex;
     position: relative;
     justify-content: center;
+    height: 32px;
     margin: auto;
 }
 
@@ -11,24 +12,26 @@
     margin: auto;
     position: relative;
     padding-left: 20px;  
-    font-size: 17px;  
+    font-size: 16px;  
     border: none;
     outline: none;
     /* border-radius: 10px 0 0 10px; */
     width: 80%;
-    height: 32px;
+    height: 31px;
+    height: 100%;
 }
 
 
 .buttonSearchBox{
     width: 20%;
-    font-size: 18px;
-    outline: none;
+    height: 33px;
+    font-size: 16px;
+    /* outline: none; */
     border: none;
     /* border-radius: 0 10px 10px 0; */
     color: white;
 
-    background-color: rgb(70, 66, 66);
+    background-color: rgb(56, 53, 53);
     transition: background-color 0.3s ease-in-out;
 }
 
