@@ -7,14 +7,15 @@ body {
 .App2 {
   width: 95%;
   max-width: 1300px ;
-  /* height: 3780px; */
+  height: 3780px;
   margin: 0 auto;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
   /* border: 2px solid #333;  */
 }
 
 .App1{
   width: 100%;
-  background-color: blue;
+  height: 3780px;
+  /* background-color: blue; */
  
 }

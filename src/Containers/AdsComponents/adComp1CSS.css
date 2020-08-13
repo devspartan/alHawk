@@ -1,0 +1,96 @@
+.container{
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+    overflow: hidden;
+    /* background: yellow; */
+    position: relative;
+    border-radius: 5px;
+}
+
+.adComp1MainDiv {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.adComp1MainDiv img {
+    display: flex;
+    max-height: 400px;
+    margin: auto;
+    
+    width: 100%;
+}
+
+.belowAdLinksParent {
+    width: 100%;
+}
+
+
+.belowAdLinksMain {
+    
+    width: 100%;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -55px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.8s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+.belowAdLinksMainButton{
+    background-color: white;
+    height: 45px;
+    border: none;
+    margin: auto;
+    width: 20%;
+    outline: none;
+    text-decoration: none;
+}
+
+.belowAdLinksMainButtonActive{
+    background-color: white;
+    height: 45px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: auto;
+    width: 20%;
+    outline: none;
+    text-decoration: none;
+}
+
+
+.classNonActive {
+    border: none;
+}
+
+.classActive {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+
+.belowAdLinksMainButton:hover {
+    /* background-color: dodgerblue; */
+    border-bottom: 2px solid rgba(0,0,0,0.8);
+}
+
+
+
