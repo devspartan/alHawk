@@ -1,0 +1,74 @@
+.productImageParent {
+    background-color: white;
+    max-width: 240px;
+    justify-content: center;
+    
+}
+
+.productImageMainDiv {
+    
+    padding: 5px 0px;
+    /* background-color: cadetblue; */
+}
+
+.productImageContainer {
+    margin:auto;
+    display: flex;
+    width: 95%;
+    height: 300px;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+
+.productImageContainer img {
+    display: flex;
+    margin: auto;
+    max-width: 230px;
+}
+
+.productImageBelowText {
+    /* background-color: dodgerblue; */
+    margin: 5px auto;
+    overflow: hidden;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    color: rgb(68, 63, 63);
+    justify-content: center;
+    width: 95%;
+
+}
+
+.productPriceDiv {
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+.productPriceMRP {
+    color: rgb(155, 148, 148);
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    text-decoration: line-through;
+    margin: auto 0px auto 4px;
+}
+
+.productPriceRetailPrice {
+    color: black;
+    font-size: 18px;
+    margin: auto 4px;
+}
+
+.productPriceDiscount {
+    border: 1px solid rgb(68, 63, 63);
+    color: rgb(68, 63, 63);
+    font-family: 'Abel', sans-serif;
+    margin: auto 6px;
+    font-size: 14px;
+    padding: 2px 4px;
+}
+
+.productImageParent:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.175s ease-in;
+}

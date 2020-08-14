@@ -1,0 +1,19 @@
+
+
+
+.productRatingStar {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.productRatingStarIconYellow {
+    font-size: 14px;
+    color: rgb(253,196,57);
+    margin: auto 5px;
+}
+
+.productRatingStarIconGrey {
+    font-size: 14px;
+    color: rgb(219, 215, 210);
+    margin: auto 5px;
+}
