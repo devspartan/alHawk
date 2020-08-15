@@ -1,0 +1,13 @@
+.navigationHeaderParent {
+
+}
+
+.navigationHeaderMainDiv {
+    margin: 5px auto;
+}
+
+.navigationHeaderContainer {
+    width: 88%;
+    margin: auto;
+    background-color: cornflowerblue;
+}

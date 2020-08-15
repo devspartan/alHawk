@@ -25,26 +25,26 @@ class ProduactMiniComp extends Component {
     render() {
         return (
             <div className='productImageParent'>
-            <div className='productImageMainDiv'>    
-            <div className='productImageContainer'>
-                    <img src={img2} />
-                </div>
-                <div className='productImageBelowText'>
-                    <div>Product name with little description</div>
-                </div>
+                <div className='productImageMainDiv'>
+                    <div className='productImageContainer'>
+                        <img src={img2} />
+                    </div>
+                    <div className='productImageBelowText'>
+                        <div>Product name with little description</div>
+                    </div>
 
-                <RatingStar rating={5} />
-                <div className='productPriceDiv'>
-                    <div className='productPriceMRP'>
-                        Rs {this.state.mrp}
+                    <RatingStar rating={5} />
+                    <div className='productPriceDiv'>
+                        <div className='productPriceMRP'>
+                            Rs {this.state.mrp}
+                        </div>
+                        <div className='productPriceRetailPrice'>
+                            <b> Rs {this.state.retailPrice}</b>
+                        </div>
+                        <div className='productPriceDiscount'>
+                            {this.state.discount}% OFF
+                        </div>
                     </div>
-                    <div className='productPriceRetailPrice'>
-                       <b> Rs {this.state.retailPrice}</b>
-                    </div>
-                    <div className='productPriceDiscount'>
-                        {this.state.discount}% OFF
-                    </div>
-                </div>
                 </div>
             </div>
         )

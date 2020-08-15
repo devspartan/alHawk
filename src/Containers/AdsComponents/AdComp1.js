@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import './adComp1CSS.css'
-import img1 from './images/ad7.png'
-import img2 from './images/ad2.jpg'
-import img3 from './images/ad3.jpg'
-import img4 from './images/ad4.jpg'
-import img5 from './images/ad5.jpg'
+import img1 from './images/ad1.jpg'
+import img2 from './images/ad9.jpg'
+import img3 from './images/ad10.jpg'
+import img4 from './images/ad11.jpg'
+import img5 from './images/ad12.jpg'
+
 
 let num = 0;
 let classNormal = 'belowAdLinksMainButton'
@@ -41,6 +42,8 @@ componentDidMount() {
             count: num,
             counter: 0
         })
+
+        
     }
 
     prevImage() {
@@ -122,7 +125,12 @@ componentDidMount() {
         return (
             <div className='container'>
                 <div className='adComp1MainDiv'>
-                    <img src={imgArr[this.state.count]} />
+            
+                    
+                    <img id="imgId" src={imgArr[this.state.count]} />
+                        
+              
+               
                 </div>
 
                 <div>

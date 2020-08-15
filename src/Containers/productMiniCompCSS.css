@@ -1,21 +1,23 @@
 .productImageParent {
     background-color: white;
-    max-width: 240px;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     
 }
 
 .productImageMainDiv {
-    
+    width: 100%;
+    height: 100%;
     padding: 5px 0px;
-    /* background-color: cadetblue; */
+    
 }
 
 .productImageContainer {
     margin:auto;
     display: flex;
     width: 95%;
-    height: 300px;
+    /* height: 300px; */
     justify-content: center;
     /* background-color: blueviolet; */
 }
@@ -23,7 +25,9 @@
 .productImageContainer img {
     display: flex;
     margin: auto;
-    max-width: 230px;
+    width:95%;
+    
+    max-width: 240px;
 }
 
 .productImageBelowText {
@@ -41,6 +45,7 @@
 .productPriceDiv {
     width: 95%;
     margin: auto;
+    margin-bottom: 10px;
     display: flex;
 }
 

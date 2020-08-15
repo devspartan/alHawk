@@ -1,0 +1,134 @@
+.qoContainer {
+    width: 80%;
+    background-color: darkturquoise;
+}
+
+
+.qoParent {
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    float: left;
+}
+
+.qoImagesDiv {
+    width: 45%;
+    display: flex;
+    height: 100%;
+    /* background-color: darkorange; */
+}
+
+.qoMiniImages {
+    /* background-color: firebrick; */
+    text-align: center;
+    display: flex;
+    /* position: relative; */
+    width: 20%;
+}
+
+.qoMiniImagesParent {
+    width: 80%;
+    margin: auto;
+    /* position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+.qoMiniImages img {
+    width: 90%;
+    margin: auto;
+}
+
+.qoMajorImage {
+    display: flex;
+    width: 80%;
+
+}
+
+.qoMajorImage img {
+    margin: auto;
+    width: 90%;
+}
+
+.qoDescriptionDiv {
+    width: 55%;
+    height: 100%;
+    /* background-color: darkseagreen; */
+}
+
+
+.qoDescription1 {
+    padding: 10px 0 0 10px;
+    width: 80%;
+    height: 40%;
+    /* border-bottom: 1px solid black; */
+    /* background-color: fuchsia; */
+}
+
+.qoDescription2 {
+    width: 100%;
+    display: flex;
+    height: 20%;
+    /* padding: 0px 0px 0 10px; */
+    /* background-color: royalblue; */
+}
+
+.qoDescription3 {
+        width: 100%;
+        height: 20%;
+        background-color: indianred;
+    
+}
+
+.qoDescription1Head {
+    padding: 10px 0 0 10px;
+    font-family: 'Abel', sans-serif;
+    font-size: 28px;
+}
+
+.qoDescriptionFeatures {
+    display: flex;
+    color: rgb(92, 87, 87);
+    border-bottom: 1px solid rgb(92, 87, 87)
+}
+
+.qoDescriptionFeaturesList {
+    width: 40%;
+}
+
+.qoDes2PriceDiv {
+    width:15%;
+    font-size: 24px;
+    font-family: 'Abel', sans-serif;
+    padding: 5px 10px;
+    /* background-color: blue; */
+}
+
+.qoDes2PriceMRPDiv {
+    font-size: 24px;
+    font-family: 'Abel', sans-serif;
+    padding: 5px 0 0 10px;
+    color: rgb(155, 148, 148);
+    text-decoration: line-through;
+}
+
+.qoDes2PriceRetailDiv {
+    display: flex;
+    /* background-color: burlywood; */
+}
+
+.qoDes2PriceRetail {
+    padding: 0 0 0 10px;
+    font-family: 'Abel', sans-serif;
+    font-size: 44px;
+    color: rgb(255, 0, 0);
+}
+
+.qoDes2PriceDiscount {
+    margin: auto 20px;
+    font-size: 16px;
+    color: rgb(155, 148, 148);
+    padding: 2px 5px 0 5px;
+    /* font-family: 'Abel', sans-serif; */
+    border: 1px solid rgb(155, 148, 148);
+}
