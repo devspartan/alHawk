@@ -1,0 +1,12 @@
+.blockk {
+    display: block;
+}
+
+.blockk2 {
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.blockk button {
+    /* background-color: khaki; */
+}

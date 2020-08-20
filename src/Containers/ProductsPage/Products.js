@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import ProductMini from '../ProductMiniComp'
-import ProductMiniContainer from '../ProductMiniContainer'
+import ProductMini from './ProductMiniComp'
+import ProductMiniContainer from './ProductMiniContainer'
 import styles from './productsCSS.module.css'
 import SearchResultFilterComp from './SearchReultsFilterComp'
 

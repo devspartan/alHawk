@@ -3,7 +3,7 @@
     float: left;
     display: flex;
     width: 100%;
-    /* background-color: darkmagenta; */
+    background-color: rgb(255, 255, 255);
 }
 
 .productsParent {
