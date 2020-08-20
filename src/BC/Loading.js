@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import LoadingGif from './images/gif/loading-arrow.gif'
+// import LoadingGif from './images/gif/loading-arrow.gif'
 
 
 class Loading extends Component {
@@ -7,7 +7,7 @@ class Loading extends Component {
         return (
             <div className='loading'>
                 <h4>Loading your data...</h4>
-                <img src={LoadingGif} ></img>
+        
             </div>
         )
     }
