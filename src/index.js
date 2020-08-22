@@ -8,7 +8,7 @@ import { RoomContextAPI } from './BC/RoomContextAPI'
 
 ReactDOM.render(
   <RoomContextAPI>
-    <Router basename="https://pure-woodland-93983.herokuapp.com/" >
+    <Router >
       <React.StrictMode>
         <App />
       </React.StrictMode>
