@@ -25,9 +25,9 @@ function App() {
   
     <Navbar />
       <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/rooms' component={Rooms} />
-        <Route exact path='/rooms/:ad' component={SingleRoom} />
+        <Route  path='/' component={Home} />
+        <Route  path='/rooms' component={Rooms} />
+        <Route  path='/rooms/:ad' component={SingleRoom} />
         <Route component={ErrorPage} />
       </Switch>
     </div>
