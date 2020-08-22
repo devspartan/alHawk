@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import items from './data'
-import Client from './Contentful'
+// import Client from './Contentful'
 
 
-const RoomContext = React.createContext();
+// const RoomContext = React.createContext();
 class RoomContextAPI extends Component {
 
     state = {
