@@ -10,7 +10,7 @@ function Home() {
     return (
         <React.Fragment >
             <Hero hero="defaultHero">
-                <Banner title='Luxurious Rooms' subTitle='get rooms at 20% discount'>
+                <Banner title='Luxurious s' subTitle='get rooms at 20% discount'>
                     <Link to='/rooms' className='btn-primary'>
                         OUR ROOMS
                     </Link>

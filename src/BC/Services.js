@@ -42,14 +42,12 @@ class Services extends Component {
             <div>
                 <Title title='Services'></Title>
                 <div className='services-center'>
-                
                     {
                         this.state.st.map((item, index) => {
                             return <article key={index} className='service'>
                                 <span>{item.icon}</span>
                                 <h4>{item.title}</h4>
                                 <p>{item.info}</p>
-
                             </article>
                         })
                     }

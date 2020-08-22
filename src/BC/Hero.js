@@ -3,8 +3,10 @@ import './BCCSS.css'
 
 function Hero({children, hero}) {
     return (
-        <div className={hero} > {children}
- 
+        <div className={hero} > 
+        {
+            children
+        }
         </div>
     )
 }

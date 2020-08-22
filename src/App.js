@@ -22,7 +22,6 @@ import Navbar from './BC/Navbar';
 function App() {
   return (
     <div>
-  
     <Navbar />
       <Switch>
         <Route exact path='/' component={Home} />
