@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import items from './data'
-// import Client from './Contentful'
+// import items from './data'
+import Client from './Contentful'
 
 
 const RoomContext = React.createContext();
@@ -21,48 +21,14 @@ class RoomContextAPI extends Component {
         pets: false
     };
 
-    // getData = async () => {
-    //     try {
-    //         let response = await Client.getEntries({
-    //             content_type: "alHawkContentful"
-    //         })
+    getData = async () => {
+        try {
+            let response = await Client.getEntries({
+                content_type: "alHawkContentful"
+            })
 
-    //         let rooms = this.formatData(response.items)
-    //         // console.log({rooms})
-    //         let featuredRooms = rooms.filter(room => room.featured === true)
-
-    //         let maxPrice = Math.max(...rooms.map(item => {
-    //             return item.price
-    //         }))
-
-    //         let maxSize = Math.max(...rooms.map(item => {
-    //             return item.size
-    //         }))
-
-    //         // console.log({featuredRooms})
-    //         this.setState({
-    //             rooms,
-    //             featuredRooms,
-    //             sortedRooms: rooms,
-    //             loading: false,
-    //             maxPrice: maxPrice,
-    //             capacity: 1,
-    //             minSize: 0,
-    //             price: maxPrice,
-    //             maxSize: maxSize,
-
-    //         })
-
-    //     }
-    //     catch (error) {
-    //         console.log(error)
-    //     }
-
-    // }
-
-    componentDidMount() {
-        let rooms = this.formatData(items)
-            // console.log({rooms})
+            let rooms = this.formatData(response.items)
+            console.log({rooms})
             let featuredRooms = rooms.filter(room => room.featured === true)
 
             let maxPrice = Math.max(...rooms.map(item => {
@@ -86,6 +52,41 @@ class RoomContextAPI extends Component {
                 maxSize: maxSize,
 
             })
+
+        }
+        catch (error) {
+            console.log(error)
+        }
+
+    }
+
+    componentDidMount() {
+        this.getData()
+        // let rooms = this.formatData(items)
+        //     // console.log({rooms})
+        //     let featuredRooms = rooms.filter(room => room.featured === true)
+
+        //     let maxPrice = Math.max(...rooms.map(item => {
+        //         return item.price
+        //     }))
+
+        //     let maxSize = Math.max(...rooms.map(item => {
+        //         return item.size
+        //     }))
+
+        //     // console.log({featuredRooms})
+        //     this.setState({
+        //         rooms,
+        //         featuredRooms,
+        //         sortedRooms: rooms,
+        //         loading: false,
+        //         maxPrice: maxPrice,
+        //         capacity: 1,
+        //         minSize: 0,
+        //         price: maxPrice,
+        //         maxSize: maxSize,
+
+        //     })
 
     }
 

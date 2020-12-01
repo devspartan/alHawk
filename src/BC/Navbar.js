@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FaBaby, FaAlignRight } from 'react-icons/fa'
-// import logo from '../Containers/mainHeader/logo/akLogo1.png'
+import logo from './logo/akLogo1.png'
 import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
@@ -26,7 +26,7 @@ class Navbar extends Component {
                 <div className='nav-center'>
                     <div className='nav-header'>
                         <Link to='/'>
-                            <h4>HOME</h4>
+                            <img src={logo}></img>
                         </Link>
 
                         <button type='button' onClick={this.handleEvent} className='nav-btn'>
