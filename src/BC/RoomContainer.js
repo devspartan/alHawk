@@ -11,7 +11,6 @@ function RoomContainer({ context }) {
     }
     return (
         <div>
-            hello
             <RoomFilter rooms={rooms}/>
             <RoomList rooms={sortedRooms}/>
         </div>
@@ -20,22 +19,3 @@ function RoomContainer({ context }) {
 
 export default withRoomConsumer(RoomContainer)
 
-// function RoomContainer() {
-//     return (
-//         <RoomConsumer>
-//         {
-//             (value) => {
-//                 return (
-//                     <div>
-//                     hello 
-//                     <RoomFilter />
-//                     <RoomFilter />
-//                     </div>
-//                 )
-//             }
-//         }
-//         </RoomConsumer>
-//     )
-// }
-
-// export default RoomContainer

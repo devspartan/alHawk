@@ -139,20 +139,19 @@ h6 {
 .defaultHero {
   position: relative;
   min-height: calc(100vh - 66px);
-  /* background: url("./images/defaultBcg.jpeg") center/cover no-repeat; */
+  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .roomsHero {
-  /* background: url("./images/room-1.jpeg") center/cover no-repeat; */
+  background: url("./images/room-1.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 60vh;
 }
-
-
 
 .banner {
   display: inline-block;
@@ -163,6 +162,7 @@ h6 {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
+
 .banner h1 {
   margin-top: 0;
   /* background-color: red; */
